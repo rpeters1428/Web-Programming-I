@@ -1,0 +1,35 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: 	Ryan Peters
+   Date:    3/10/2014
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+/* Styles for the Programs table */
+
+table.programs {
+	width: 100%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+table.programs caption {
+	caption-side: bottom;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+table.programs tbody {
+	font-size: 0.7em;
+	vertical-align: top;
+	border: 1px solid gray;
+	padding: 2px;
+}
