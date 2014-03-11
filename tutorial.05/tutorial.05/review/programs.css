@@ -30,6 +30,18 @@ table.programs caption {
 table.programs tbody {
 	font-size: 0.7em;
 	vertical-align: top;
+}
+
+table.programs th, table.programs td {
 	border: 1px solid gray;
 	padding: 2px;
+}
+
+table.programs tr {
+	height: 25px;
+}
+
+table.programs thead tr {
+	color: white;
+	background-color: rgb(105, 177, 60);
 }
