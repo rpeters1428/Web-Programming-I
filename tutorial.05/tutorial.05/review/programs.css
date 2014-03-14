@@ -41,7 +41,29 @@ table.programs tr {
 	height: 25px;
 }
 
-table.programs thead tr {
+table.programs thead {
 	color: white;
 	background-color: rgb(105, 177, 60);
 }
+
+table.programs thead tr {
+	font-size:  0.7em;
+	border: 1px solid gray;
+}
+
+table.programs thead tr th:first-of-type {
+	background-color: rgb(153, 86, 7);
+}
+
+table.programs thead tr th:nth-of-type(7) {
+	background-color:  rgb(153, 0, 153);
+}
+
+table.programs thead tr th:nth-of-type(8) {
+	background-color:  rgb(153, 0, 153);
+}
+
+table.programs col:timeColumn {
+	width:  10%;
+	background-color: rgb(215, 205, 151);
+} 
